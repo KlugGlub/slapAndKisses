@@ -1,142 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>minha série favorita</title>
 </head>
 <body>
     <header>
         <div class="title">
-            <h1>Tapas e beijos</h1>
+            <h1>Tapas & Beijos</h1>
         </div>
         <div class="nav">
             <ul>
                 <li>
-                    <a href="#">Informações Gerais</a>
+                    <a href="#sinopse-id">Informações Gerais</a>
                 </li>
                 <li>
-                    <a href="#">Personagens</a>
+                    <a href="#personagens">Personagens</a>
                 </li>
                 <li>
-                    <a href="#">Trailer/Teaser</a>
+                    <a href="#video-player">Trailer/Teaser</a>
                 </li>
             </ul>
         </div>
     </header>
         <main>
             <div class="overview">
+                <img src="./img/Logo.png" alt="Logo de tapas e beijos">
+                <div class="sinopse">
+                    <h2 id="sinopse-id">Sinopse</h2>
+                    <p>
+                        Tapas & Beijos acompanha as amigas Fátima (Fernanda Torres) e Sueli (Andréa Beltrão), solteiras que trabalham na loja de vestidos de noiva Djalma Noivas, em Copacabana, enquanto lidam com suas complicadas vidas amorosas. Sueli tem um ex-marido encrenqueiro, Jurandir, e se envolve com Jorge, dono da boate La Conga, enfrentando a rivalidade de Lucilene. Já Fátima mantém um relacionamento instável com Armane, um comerciante sedutor e enrolado.
 
+                        O elenco também inclui Djalma e sua esposa ciumenta Flavinha, além do libanês Chalita, que busca uma noiva. Após várias idas e vindas, casamentos e separações, Fátima e Sueli deixam seus empregos e abrem um brechó chique, mas enfrentam dificuldades, especialmente pelo sumiço de Armane. No desfecho, os personagens seguem com suas confusões amorosas e profissionais, mantendo o humor e o caos característicos da série.
+                    </p>
+                </div>
+                <div id="info">
+                    <h2>Informações</h2>
+                    <ul id="infolist">
+                        <li>Formato: série de televisão</li>
+                        <li> Gênero: comédia romântica</li>
+                        <li> Criado por: Cláudio Paiva</li>
+                        <li> Dirigido por: 	Maurício Farias</li>
+                        <li>Numero de Episodios: 169 episódios</li>
+                        <li>Numero de temporadas: 5</li>
+                        <li>Tempo de transimissão: exibida de 5 de abril de 2011 até 15 de setembro de 2015</li>
+                    </ul>
+                </div>
             </div>
-            <div class="characters">
-                <table border="1">
-                    <tr>
-                        <td>
-                            <p>Imagem</p>
-                        </td>
-                        <td>
-                            <p>Personagem</p>
-                        </td>
-                        <td>
-                            <p>Ator/Atriz</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
+            <div id="personagens" class="characters">
+                <ul id="character-list">
+                    <li><a href="#fatima">Fátima</a></li>
+                    <li><a href="#sueli">Sueli</a></li>
+                    <li><a href="#armane">Armane</a></li>
+                    <li><a href="#jorge">Jorge</a></li>
+                    <li><a href="#djalma">Djalma</a></li>
+                    <li><a href="#seu-chalita">Seu Chalita</a></li>
+                </ul>
+                    <table class="character-table">
+                        <tr >
+                            <td colspan="4"><h2>Personagens</h2></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Personagem</p>
+                            </td>
+                            <td>
+                                <p>Ator</p>
+                            </td>
+                            <td>
+                                <p>Descrição</p>
+                            </td>
+                            <td>
+                                <p>Imagem</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Fátima</p>
+                            </td>
+                            <td>
+                                <p>Fernanda Torres</p>
+                            </td>
+                            <td>
+                                <p class="descricao">
+                                    Fátima é uma mulher independente, divertida e carente no plano afetivo. 
+                                    <br>  Trabalha como vendedora na loja Djalma Noivas, em Copacabana, e divide um apartamento com sua amiga Sueli no Méier. 
+                                    <br> Ela vive um romance complicado com Armane, um homem casado, mas cheio de charme.
+                                </p>
+                            </td>
+                            <td class="img-frame">
+                                <img id= "fatima" src="./img/Fátima.jpg" alt="Fátima" wheight="200" height="200">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Sueli</p>
+                            </td>
+                            <td>
+                                Andreá Beltrão
+                            </td>
+                            <td>
+                                <p class="descricao">
+                                    Sueli é sensível, independente e com um toque debochado. 
+                                    <br> Também vendedora na Djalma Noivas, ela busca um grande amor enquanto lida com situações amorosas tumultuadas, incluindo seu ex-marido Jurandir e seu relacionamento com Jorge, dono de uma boate.
+                                </p>
+                            </td>
+                            <td class="img-frame">
+                                <img id= "sueli" src="./img/Sueli.jpg" alt="Sueli" wheight="200" height="200">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Armane</p>
+                            </td>
+                            <td>
+                                <p>Vladmir Britcha</p>
+                            </td>
+                            <td>
+                                <p class="descricao">
+                                    Armane é o carismático dono de uma importadora em Copacabana. Inicialmente casado, ele vive um relacionamento tumultuado com Fátima (Fernanda Torres), com quem acaba se casando no final da primeira temporada, após sua esposa descobrir as traições e pedir o divórcio. 
+                                    <br> O personagem combina charme e malandragem, sendo uma figura marcante na série. Além disso, ele se torna amigo de Jorge, criando mais laços entre os personagens principais.
+                                </p>
+                            </td>
+                            <td class="img-frame">
+                                <img id= "armane" src="./img/Armane.jpg" alt="Armane" wheight="200" height="200">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Jorge</p>
+                            </td>
+                            <td>
+                                <p>Vladmir Britcha</p>
+                            </td>
+                            <td>
+                                <p class="descricao">
+                                    Jorge é o dono de uma boate em Copacabana, o que combina com sua personalidade carismática e excêntrica. Ele possui uma relação cheia de idas e vindas com Sueli (Andrea Beltrão), com quem tem um vínculo amoroso forte e também conflitos intensos.
+                                    <br> Jorge é amigo de Armane, o que fortalece a dinâmica entre os personagens centrais da série. Ele traz uma boa dose de humor e emoção para a trama, sendo um personagem multifacetado e marcante.
+                                </p>
+                            </td>
+                            <td class="img-frame">
+                                <img id= "jorge" src="./img/Jorge.jpg" alt="Jorge" wheight="200" height="200">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Djalma
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Otávio Müller
+                                </p>
+                            </td>
+                            <td>
+                                <p class="descricao">
+                                    Djalma é o peculiar e excêntrico dono da loja Djalma Noivas, localizada em Copacabana. Sempre envolvido em situações cômicas, ele tenta manter sua loja de vestidos de noiva funcionando enquanto lida com suas funcionárias, Fátima e Sueli, e sua esposa ciumenta, Flavinha. Djalma é uma figura caricata e divertida, com um charme atrapalhado que rende muitas risadas na série.
+                                </p>
+                            </td>
+                            <td class="img-frame">
+                                <img id= "djalma" src="./img/Djalma.jpg" alt="Djalma" wheight="200" height="200">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Seu Chalita
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Flávio Magliaccio
+                                </p>
+                            </td>
+                            <td>
+                                <p class="descricao">
+                                    Seu Chalita é o simpático e sábio dono de um restaurante árabe frequentado por Fátima, Sueli e outros personagens. 
+                                    <br>Sempre com seu sotaque marcante e um jeito acolhedor, ele oferece conselhos e apoio aos frequentadores de seu estabelecimento. 
+                                    <br> Chalita é um dos personagens que traz um toque especial à série, com seu bom humor e histórias repletas de sabedoria
+                                </p>
+
+                            </td>
+                            <td class="img-frame">
+                                <img id= "seu-chalita" src="./img/Seu Chalita.jpg" alt="Seu chalita" wheight="200" height="200">
+                            </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <img src="https://th.bing.com/th/id/R.014cd09ad009c01d61e35281e788e22b?rik=f6F7B4OGRL1eeQ&riu=http%3a%2f%2fs2.glbimg.com%2fWrhWQqc7LMlF6RscMb1Xxt9aDVA%3d%2f75x0%3a599x567%2f524x567%2fs.glbimg.com%2fet%2fgs%2ff%2foriginal%2f2015%2f06%2f25%2ffatima-noiva-fernanda-torre.jpg&ehk=XammbmPceVqVA32WfONLthB9R%2bXLYaFjScQDYmpngH0%3d&risl=&pid=ImgRaw&r=0" alt="Imagem Da atriz fenanda torres caracterizada como fátima do seriado 'Tapas e Beijos' ">
-                        </td>
-                        <td>
-                            <p>Fátima</p>
-                        </td>
-                        <td>
-                            <p>Fernanda Torres</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
-                    </tr>  
-                    <tr>
-                        <td>
-                            <p>Imagem</p>
-                        </td>
-                        <td>
-                            <p>Sueli</p>
-                        </td>
-                        <td>
-                            <p>Andrea Beltrão</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
-                    </tr>  
-                    <tr>
-                        <td>
-                            <p>Imagem</p>
-                        </td>
-                        <td>
-                            <p>Armani</p>
-                        </td>
-                        <td>
-                            <p>Vladmir Britcha</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
-                    </tr>  
-                    <tr>
-                        <td>
-                            <p>Imagem</p>
-                        </td>
-                        <td>
-                            <p>Jorge</p>
-                        </td>
-                        <td>      <p>Fábio Assunção</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
-                    </tr>  
-                    <tr>
-                        <td>
-                            <p>Imagem</p>
-                        </td>
-                        <td>
-                            <p>Djalma</p>
-                        </td>
-                        <td>
-                            <p>Otávio Muller</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
-                    </tr>  
-                    <tr>
-                        <td>
-                            <p>Imagem</p>
-                        </td>
-                        <td>
-                            <p>Seu Chalita</p>
-                        </td>
-                        <td>
-                            <p>Flavio Migliaccio</p> 
-                        </td>
-                        <td>
-                            <p>Descrição</p>
-                        </td>
-                        
-                    </tr>  
                 </table>
             </div>
-            <div class="trailer">
+            <div id="trailer">
+                <h2>Trailer</h2>
+
+                <iframe id="video-player" width="560" height="315" src="https://www.youtube.com/embed/QJLcHFY22FQ?si=h0EoI6dySUpxOmVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             </div>
         </main>
